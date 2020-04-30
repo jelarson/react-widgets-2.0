@@ -29,12 +29,13 @@
 
 .app-wrapper{
     display: flex;
+    width: 100vw;
 
     .content-wrapper{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 70vw;
+        width: 100%;
         background-color: crimson;
         color: khaki;
         flex-direction: column;

@@ -19,7 +19,7 @@ const Icons = () => {
 
 
 
-export default function () {
+export default function Home() {
   Icons();
   return (
     <div className='content-wrapper'>
