@@ -1,0 +1,34 @@
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  background-color: khaki;
+  
+  .nav-link-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    width: 30vw;
+    height: 12.5vh;
+    background-color: khaki;
+    color: crimson;
+    border: none;
+    font-size: 1.5em;
+    
+    &:hover {
+      text-decoration: none;
+      background-color: crimson;
+      color: khaki;
+      
+      a {
+        color: khaki;
+      }
+    }
+  }
+  
+  .nav-link-wrapper a {
+    color: crimson;
+    font-size: 1.5em;
+  }
+}
