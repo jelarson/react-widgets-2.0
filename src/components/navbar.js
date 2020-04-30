@@ -63,7 +63,11 @@ export default function Navbar() {
         <NavLink to='/military-time'><a className='nav-link-wrapper'>Military Time Converter</a></NavLink>
       </div>
       <div className='drawer-button'>
-        <button onClick={() => nameChange()} className='drawer-button1'><FontAwesomeIcon icon='arrow-circle-right' /></button>
+        {name === 'nav-wrapper' ?
+          <button onClick={() => nameChange()} className='drawer-button1'><FontAwesomeIcon icon='arrow-circle-left' /></button>
+          :
+          <button onClick={() => nameChange()} className='drawer-button1'><FontAwesomeIcon icon='arrow-circle-right' /></button>
+        }
       </div>
     </div >
   )
